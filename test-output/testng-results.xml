@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T19:17:39 EET" name="Default suite" finished-at="2026-01-16T19:17:47 EET" duration-ms="7977">
+    <groups>
+    </groups>
+    <test started-at="2026-01-16T19:17:39 EET" name="Default test" finished-at="2026-01-16T19:17:47 EET" duration-ms="7977">
+      <class name="MyTestCases">
+        <test-method is-config="true" signature="mySetupTest()[pri:0, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:39 EET" name="mySetupTest" finished-at="2026-01-16T19:17:41 EET" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetupTest -->
+        <test-method signature="login()[pri:1, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:41 EET" name="login" finished-at="2026-01-16T19:17:41 EET" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:2, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:41 EET" name="addToCart" finished-at="2026-01-16T19:17:41 EET" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="RemoveItems()[pri:3, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:41 EET" name="RemoveItems" finished-at="2026-01-16T19:17:44 EET" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItems -->
+        <test-method signature="AddAfterRemove()[pri:4, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:44 EET" name="AddAfterRemove" finished-at="2026-01-16T19:17:44 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAfterRemove -->
+        <test-method signature="CheckOut()[pri:5, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:44 EET" name="CheckOut" finished-at="2026-01-16T19:17:45 EET" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method signature="logOut()[pri:6, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:45 EET" name="logOut" finished-at="2026-01-16T19:17:47 EET" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="AfterTestDone()[pri:0, instance:MyTestCases@2f48b3d2]" started-at="2026-01-16T19:17:47 EET" name="AfterTestDone" finished-at="2026-01-16T19:17:47 EET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestDone -->
+      </class> <!-- MyTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
