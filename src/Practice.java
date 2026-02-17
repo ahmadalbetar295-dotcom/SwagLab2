@@ -40,35 +40,26 @@ public class Practice {
 
 	@Test(priority = 2)
 	public void addAllItemsToCart() {
-		driver.findElements(By.className("btn.btn_primary.btn_small.btn_inventory"));
-//		static
-		String[] mynames = { "ahmad ", "sara", "leen", "mohmmad" };
-		System.out.println(mynames.length);
 
-		// dynamic
-
-//		List<WebElement> prices = new ArrayList<WebElement>();
-//		WebElement firstItemPrice = driver.findElement(By.className("inventory_item_price"));
-//		prices.add(firstItemPrice);
-//		System.out.println(prices.get(0).getText());
-		List<WebElement> allPrices = driver.findElements(By.className("inventory_item_price"));
-		System.out.println(allPrices.get(5).getText());
-
-		for (int i = 0; i < allPrices.size(); i++) {
-			System.out.println(allPrices.get(i).getText());
-		}
 		List<WebElement> addAllItem = driver.findElements(By.className("btn_primary"));
+		List<WebElement> theNamesItem = driver.findElements(By.className("inventory_item_name"));
+		List<WebElement> allPrices = driver.findElements(By.className("inventory_item_price"));
 
+		
 		for (int i = 0; i < addAllItem.size(); i++) {
-			
-			if(i==3 || i==4) {
-				System.out.println("this item has been skipped");
-//				break;
-				 continue;
+			if(i % 2 == 0 ) {
+				addAllItem.get(i).click();
+				System.out.println(
+						theNamesItem.get(i).getText() + " has been added the price is "+ allPrices.get(i).getText());
 			}
-			addAllItem.get(i).click();
-		}
-
+			else {System.out.println(
+					theNamesItem.get(i).getText() + " has not been added the price is "+ allPrices.get(i).getText());
+				
+				
+			}
 	}
 
+	}
 }
+
+
